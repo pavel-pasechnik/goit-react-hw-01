@@ -24,8 +24,8 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 512px;
-  height: 512px;
+  width: 312px;
+  height: 312px;
   overflow: hidden;
   background-color: #242424;
   border-radius: 50%;
