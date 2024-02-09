@@ -1,12 +1,12 @@
 // src/components/Product.jsx
-import styles from './css/Profile.module.css';
+import styles from './Profile.module.css';
 
 export const Profile = ({ name, tag, location, image, stats: { followers, views, likes } }) => {
   return (
     <article>
       <div className={styles.card}>
         <div className={styles.photo}>
-          <img className={styles.avatar} src={image} alt='User avatar' />
+          <img className={styles.avatar} src={image} alt='User avatar' width={312} />
         </div>
         <p className={styles.name}>{name}</p>
         <p className={styles.tag}>@{tag}</p>
